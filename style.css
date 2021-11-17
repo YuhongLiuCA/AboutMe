@@ -1,0 +1,58 @@
+/*
+    Root Variables.
+*/
+:root {
+    --bcolor: rgb(243,242,239);
+    --education_color: rgb(220,230,240);
+    --fcolor: #101010;
+}
+
+html {
+  font-family: serif, sans-serif;
+  color: var(--fcolor);
+  background-color: var(--bcolor);
+  margin-left: 20%;
+ }
+
+ body {
+  margin: 0;
+  padding: 0;
+ }
+
+ img {
+     height: 200px;
+     border: 1px solid white;
+     border-radius: 50%;
+ }
+
+ table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: .5rem;
+  }
+
+  .working_title {
+      float: left;
+      font-weight: bold;
+  }
+
+  .working_date {
+      float: right;
+      font-weight: bold;
+      margin-right: 20vw;
+  }
+
+  .working_description {
+      margin-top: 1em;
+  }
+
+  #expereince-section {
+      margin-top: 40px;
+  }
+
+  #education-section {
+      margin-top: 40px;
+      background-color: var(--education_color);
+      padding: 1rem;
+  }
+
