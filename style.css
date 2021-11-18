@@ -11,7 +11,8 @@ html {
   font-family: serif, sans-serif;
   color: var(--fcolor);
   background-color: var(--bcolor);
-  margin-left: 20%;
+  max-width: 500px;
+  margin: auto;
  }
 
  body {
@@ -25,11 +26,15 @@ html {
      border-radius: 50%;
  }
 
+ img:hover {
+     cursor: pointer;
+ }
+
  table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
     padding: .5rem;
-    box-shadow: 0 0 20px rgba(134, 83, 83, 0.15);
+    
   }
 
   .working_title {
@@ -47,14 +52,22 @@ html {
       margin-top: 1em;
   }
 
+  .enlarge {
+      font-size: 30px;
+      transition: 1s;
+  }
+
   #expereince-section {
       margin-top: 50px;
   }
 
   #education-section {
       margin-top: 40px;
-      background-color: var(--education_color);
       padding: 1rem;
       margin-bottom: 60px;
+  }
+
+  #workingExperience:hover {
+      cursor:pointer;
   }
 
